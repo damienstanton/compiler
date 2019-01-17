@@ -5,13 +5,13 @@ Now that Rust is a lot more stable, I want to sit down and build a proper compil
 Do yourself a favor and buy these:
 
 [![Writing an Interpreter in Go](https://interpreterbook.com/img/cover-cb2da3d1.png)](https://interpreterbook.com)
-
 [![Writing a Compiler in Go](https://compilerbook.com/images/cover-514e0936.png)](https://compilerbook.com)
 
 
-## Current Status
+## Status
 
-
+[![Build Status](https://travis-ci.org/damienstanton/compiler.svg?branch=master)](https://travis-ci.org/damienstanton/compiler)
+[![Rust 2018](https://img.shields.io/badge/Rust-2018_edition-orange.svg)](https://rust-lang-nursery.github.io/edition-guide/rust-2018/index.html)
 
 - [ ] Lexer
 - [ ] Parser
