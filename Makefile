@@ -5,3 +5,7 @@ test:
 .PHONY: release
 release:
 	@cargo build --release
+
+.PHONY: docs
+docs:
+	@cargo doc --no-deps --open
