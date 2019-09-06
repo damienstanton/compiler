@@ -2,13 +2,13 @@ version: 2
 jobs:
   build:
     docker:
-      - image: rust:latest
+      - image: rustlang/rust:nightly
     steps:
       - checkout
       - run: cargo build
   test:
     docker:
-      - image: rust:latest
+      - image: rustlang/rust:nightly
     steps:
       - checkout
       - run: cargo test
