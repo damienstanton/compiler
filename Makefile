@@ -1,3 +1,5 @@
+default: test release
+
 .PHONY: test
 test:
 	@cargo test -- --nocapture

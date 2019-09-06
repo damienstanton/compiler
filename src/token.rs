@@ -3,6 +3,7 @@
 pub type TokenType = &'static str;
 
 /// a token
+#[derive(Default)]
 pub struct Token {
     pub token_type: TokenType,
     pub literal: char,

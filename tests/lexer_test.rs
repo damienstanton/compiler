@@ -1,12 +1,14 @@
-use compiler::lexer::*;
-use compiler::token::*;
+use compiler::{
+    lexer::Lexer,
+    token::*
+};
 
 struct Test {
     e: TokenType,
     t: char,
 }
 
-const INPUT: &'static str = "=+(){},;";
+const INPUT: &str = "=+(){},;";
 
 #[cfg(test)]
 mod tests {

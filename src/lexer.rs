@@ -13,7 +13,7 @@ impl Lexer {
     /// create a new lexer from the given input
     pub fn new(input: &'static str) -> Lexer {
         Lexer {
-            input: input,
+            input,
             pos: 0,
             read_pos: 0,
             ch: '\0',
