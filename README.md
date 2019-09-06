@@ -9,7 +9,7 @@ Do yourself a favor and buy these:
 
 
 ## Status
-[![Build Status](https://circleci.com/gh/damienstanton/compiler/tree/master.svg?style=svg)](https://circleci.com/gh/damienstanton/compiler/tree/master)
+[![Build Status](https://circleci.com/gh/damienstanton/compiler/tree/stable.svg?style=svg)](https://circleci.com/gh/damienstanton/compiler/tree/stable)
 [![Rust 2018](https://img.shields.io/badge/Rust-2018_edition-orange.svg)](https://rust-lang-nursery.github.io/edition-guide/rust-2018/index.html)
 
 - [ ] Lexer
